@@ -1,14 +1,14 @@
 ---
 title: "TADM 20_21. MADM. Trabajo Final"
-author: "Grupo y nombre de cada usuario"
+author: "Nombre y Apellidos"
 date: '2021'
 output:
+  pdf_document:
+    toc: yes
+    number_sections: yes
   word_document:
     toc: yes
   html_document:
-    toc: yes
-    number_sections: yes
-  pdf_document:
     toc: yes
     number_sections: yes
 linkcolor: red
@@ -23,7 +23,7 @@ urlcolor: blue
 # Trabajo final 50% nota final ( se puntúa sobre 100)
 
 
-El proyecto final consiste en elegir un `data.set` (buscare en las fuentes que hemos utilizado a lo largo del curso) que consista en:
+El proyecto final consiste en elegir un `data.set` (buscar en las fuentes que hemos utilizado a lo largo del curso) que consista en:
 
 * Una o más tablas de datos (se valorará más de dos tablas, pero no es necesario)
 * El conjunto de datos global debe contener variables de varios tipos: númericas, factores, de texto, de tiempo... etc.
@@ -42,7 +42,12 @@ El proyecto final consiste en elegir un `data.set` (buscare en las fuentes que h
 * Fecha entrega 23:55 horas 5 de febrero (viernes) de 2021 a través de la actividad de moodle correspondiente.
 
 
+
+
 # ¿Qué es lo que se pide?
+
+El proyecto de evalúa en tres partes.
+
 
 ## Parte 1  Contexto del problema y modelo de datos  (30/100)
 
