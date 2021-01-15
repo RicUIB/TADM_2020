@@ -3,14 +3,14 @@ title: "TADM 20_21. MADM. Trabajo Final"
 author: "Nombre y Apellidos"
 date: '2021'
 output:
+  word_document:
+    toc: yes
   html_document:
     toc: yes
     number_sections: yes
   pdf_document:
     toc: yes
     number_sections: yes
-  word_document:
-    toc: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
 citecolor: blue
@@ -60,6 +60,7 @@ El proyecto de evalúa en tres partes.
 ## Parte 2: Análisis exploratorio (EDA). (30/100)
 
 En las siguientes preguntas aplica todo lo que hemos visto  acerca de la documentación en el EDA: Título de gráficos,  etiquetas de los ejes, coloreado con información, leyendas, tablas bien presentadas (knitr)... Establece en dos o tres etapas un Análisis Exploratorio (EDA) global de estos datos que incluya algunos de estos aspectos:
+
   1. Gráficos con ggplot2 de las v.a. discretas, continuas
   2. Gráficos de dos variables segmentando una en función de otras, que tenga sentido. Por ejemplo continua versus factor.
   3. Tablas de resumen de estadísticos globales.
