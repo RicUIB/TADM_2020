@@ -27,7 +27,7 @@ El proyecto final consiste en elegir un `data.set` (buscar en las fuentes que he
 
 * Una o más tablas de datos (se valorará más de dos tablas, pero no es necesario)
 * El conjunto de datos global debe contener variables de varios tipos: númericas, factores, de texto, de tiempo... etc.
-* Se tendrá en cuenta la justificación del código, su claridad, la contextualización del problema así como la investigación adicional de  librerías  no vistas durante el curso. 
+* Se tendrá en cuenta la justificación del código mostrándolo  para su evaluación, su claridad, la contextualización del problema así como la investigación adicional de  librerías  no vistas durante el curso. 
 
 
 
@@ -57,9 +57,9 @@ El proyecto de evalúa en tres partes.
 
 1. Justifica  para cada una de las variables de  vuestro proyecto el tipo de dato que mejor se ajusta a cada una de ellas: numérico, ordinal, categórico.... Transforma  cada variable al tipo adecuado de dato.
 
-## Parte 2: Análisis exploratorio (EDA). (35/100)
+## Parte 2: Análisis exploratorio (EDA). (30/100)
 
-En las siguientes preguntas aplica todo lo que hemos visto  acerca de la documentación en el EDA: Título de gráficos,  etiquetas de los ejes, coloreado con información, leyendas, tablas bien presentadas (knitr)... Establece en dos o tres estápas un Análisis Exploratorio (EDA) global de estos datos que incluya algunos de estos aspectos:
+En las siguientes preguntas aplica todo lo que hemos visto  acerca de la documentación en el EDA: Título de gráficos,  etiquetas de los ejes, coloreado con información, leyendas, tablas bien presentadas (knitr)... Establece en dos o tres etapas un Análisis Exploratorio (EDA) global de estos datos que incluya algunos de estos aspectos:
   1. Gráficos con ggplot2 de las v.a. discretas, continuas
   2. Gráficos de dos variables segmentando una en función de otras, que tenga sentido. Por ejemplo continua versus factor.
   3. Tablas de resumen de estadísticos globales.
@@ -68,13 +68,17 @@ En las siguientes preguntas aplica todo lo que hemos visto  acerca de la documen
 
 
 
-## Parte 3: Aprendizaje estadístico  (Machine Learning) (35/100)
+## Parte 3: Aprendizaje estadístico  (Machine Learning) (40/100)
 
-En esta última parte aplica  algunas de las técnicas de Machine Learning que hemos visto. Sobre todo desde el punto de vista de la parte de la tecnología de aplicación.
+En esta última parte aplica  algunas de las técnicas de Machine Learning que hemos visto. 
 
-1. Para alguna de las variables continuas, aplica alguno de los algoritmos de regresión.
-2. Para alguna de las variables discretas, aplica alguno de los algoritmos de clasificación.
+En cada caso de machine learning, si es necesario, divídelos en conjuntos de datos de **training** y de **testing**.
+
+Sobre todo desde el punto de vista de la parte de la tecnología de aplicación.
+
+1. Para alguna de las variables continuas, aplica al menos dos de los algoritmos de regresión. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.
+2. Para alguna de las variables discretas, aplica al menos dos de los algoritmos de clasificación. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.
 3. Reduce la dimensión de tu dataset con LDA o PCA (puede resultar interesante para reducir el número de variables a 2 o 3 para así representarlo en uno, dos o tres gráficos del plano).
-4. Crea un clustering por k-means o jerárquico para segmentar las observaciones en un número de grupos
+4. Crea un clustering por k-means o jerárquico utilizando como entrada resultado de la reducción de la dimensión anterior, para segmentar las observaciones en un número de grupos. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.
 * BONUS: utiliza tensorflow como librería de redes neuronales para resolver el problema desde un punto de vista diferente al de la estadística clásica.
-* BONUS 2: utiliza alguno de los algoritmos que hayáis aprendido durante el resto del master, justificando el por qué utilizáis ese algoritmo.
+* BONUS 2: utiliza alguno de los algoritmos que hayáis aprendido durante el resto del máster, justificando el por qué utilizáis ese algoritmo.

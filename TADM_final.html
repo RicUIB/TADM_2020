@@ -424,8 +424,8 @@ summary {
 </ul></li>
 <li><a href="#qué-es-lo-que-se-pide"><span class="toc-section-number">2</span> ¿Qué es lo que se pide?</a><ul>
 <li><a href="#parte-1-contexto-del-problema-y-modelo-de-datos-30100"><span class="toc-section-number">2.1</span> Parte 1 Contexto del problema y modelo de datos (30/100)</a></li>
-<li><a href="#parte-2-análisis-exploratorio-eda.-35100"><span class="toc-section-number">2.2</span> Parte 2: Análisis exploratorio (EDA). (35/100)</a></li>
-<li><a href="#parte-3-aprendizaje-estadístico-machine-learning-35100"><span class="toc-section-number">2.3</span> Parte 3: Aprendizaje estadístico (Machine Learning) (35/100)</a></li>
+<li><a href="#parte-2-análisis-exploratorio-eda.-30100"><span class="toc-section-number">2.2</span> Parte 2: Análisis exploratorio (EDA). (30/100)</a></li>
+<li><a href="#parte-3-aprendizaje-estadístico-machine-learning-40100"><span class="toc-section-number">2.3</span> Parte 3: Aprendizaje estadístico (Machine Learning) (40/100)</a></li>
 </ul></li>
 </ul>
 </div>
@@ -436,7 +436,7 @@ summary {
 <ul>
 <li>Una o más tablas de datos (se valorará más de dos tablas, pero no es necesario)</li>
 <li>El conjunto de datos global debe contener variables de varios tipos: númericas, factores, de texto, de tiempo… etc.</li>
-<li>Se tendrá en cuenta la justificación del código, su claridad, la contextualización del problema así como la investigación adicional de librerías no vistas durante el curso.</li>
+<li>Se tendrá en cuenta la justificación del código mostrándolo para su evaluación, su claridad, la contextualización del problema así como la investigación adicional de librerías no vistas durante el curso.</li>
 </ul>
 <div id="instrucciones" class="section level2">
 <h2><span class="header-section-number">1.1</span> Instrucciones</h2>
@@ -461,22 +461,24 @@ summary {
 <li><p>Justifica para cada una de las variables de vuestro proyecto el tipo de dato que mejor se ajusta a cada una de ellas: numérico, ordinal, categórico…. Transforma cada variable al tipo adecuado de dato.</p></li>
 </ol>
 </div>
-<div id="parte-2-análisis-exploratorio-eda.-35100" class="section level2">
-<h2><span class="header-section-number">2.2</span> Parte 2: Análisis exploratorio (EDA). (35/100)</h2>
-<p>En las siguientes preguntas aplica todo lo que hemos visto acerca de la documentación en el EDA: Título de gráficos, etiquetas de los ejes, coloreado con información, leyendas, tablas bien presentadas (knitr)… Establece en dos o tres estápas un Análisis Exploratorio (EDA) global de estos datos que incluya algunos de estos aspectos: 1. Gráficos con ggplot2 de las v.a. discretas, continuas 2. Gráficos de dos variables segmentando una en función de otras, que tenga sentido. Por ejemplo continua versus factor. 3. Tablas de resumen de estadísticos globales. 4. Tablas de resumen de estadísticos por grupos. 5. Ampliación de alguna técnica de inferencia estadística.</p>
+<div id="parte-2-análisis-exploratorio-eda.-30100" class="section level2">
+<h2><span class="header-section-number">2.2</span> Parte 2: Análisis exploratorio (EDA). (30/100)</h2>
+<p>En las siguientes preguntas aplica todo lo que hemos visto acerca de la documentación en el EDA: Título de gráficos, etiquetas de los ejes, coloreado con información, leyendas, tablas bien presentadas (knitr)… Establece en dos o tres etapas un Análisis Exploratorio (EDA) global de estos datos que incluya algunos de estos aspectos: 1. Gráficos con ggplot2 de las v.a. discretas, continuas 2. Gráficos de dos variables segmentando una en función de otras, que tenga sentido. Por ejemplo continua versus factor. 3. Tablas de resumen de estadísticos globales. 4. Tablas de resumen de estadísticos por grupos. 5. Ampliación de alguna técnica de inferencia estadística.</p>
 </div>
-<div id="parte-3-aprendizaje-estadístico-machine-learning-35100" class="section level2">
-<h2><span class="header-section-number">2.3</span> Parte 3: Aprendizaje estadístico (Machine Learning) (35/100)</h2>
-<p>En esta última parte aplica algunas de las técnicas de Machine Learning que hemos visto. Sobre todo desde el punto de vista de la parte de la tecnología de aplicación.</p>
+<div id="parte-3-aprendizaje-estadístico-machine-learning-40100" class="section level2">
+<h2><span class="header-section-number">2.3</span> Parte 3: Aprendizaje estadístico (Machine Learning) (40/100)</h2>
+<p>En esta última parte aplica algunas de las técnicas de Machine Learning que hemos visto.</p>
+<p>En cada caso de machine learning, si es necesario, divídelos en conjuntos de datos de <strong>training</strong> y de <strong>testing</strong>.</p>
+<p>Sobre todo desde el punto de vista de la parte de la tecnología de aplicación.</p>
 <ol style="list-style-type: decimal">
-<li>Para alguna de las variables continuas, aplica alguno de los algoritmos de regresión.</li>
-<li>Para alguna de las variables discretas, aplica alguno de los algoritmos de clasificación.</li>
+<li>Para alguna de las variables continuas, aplica al menos dos de los algoritmos de regresión. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.</li>
+<li>Para alguna de las variables discretas, aplica al menos dos de los algoritmos de clasificación. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.</li>
 <li>Reduce la dimensión de tu dataset con LDA o PCA (puede resultar interesante para reducir el número de variables a 2 o 3 para así representarlo en uno, dos o tres gráficos del plano).</li>
-<li>Crea un clustering por k-means o jerárquico para segmentar las observaciones en un número de grupos</li>
+<li>Crea un clustering por k-means o jerárquico utilizando como entrada resultado de la reducción de la dimensión anterior, para segmentar las observaciones en un número de grupos. Se valorará tener el modelo, su explicación, así como una representación gráfica del resultado.</li>
 </ol>
 <ul>
 <li>BONUS: utiliza tensorflow como librería de redes neuronales para resolver el problema desde un punto de vista diferente al de la estadística clásica.</li>
-<li>BONUS 2: utiliza alguno de los algoritmos que hayáis aprendido durante el resto del master, justificando el por qué utilizáis ese algoritmo.</li>
+<li>BONUS 2: utiliza alguno de los algoritmos que hayáis aprendido durante el resto del máster, justificando el por qué utilizáis ese algoritmo.</li>
 </ul>
 </div>
 </div>
